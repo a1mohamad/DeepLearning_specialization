@@ -47,7 +47,7 @@ The Deep Learning Specialization covers essential deep learning topics, includin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/deep-learning-specialization.git
+   git clone https://github.com/a1mohamad/DeepLearning_specialization.git
    ```
 2. Navigate to the course folder you want to study.
 
