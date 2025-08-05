@@ -1,0 +1,49 @@
+# Initialization – Improving Deep Neural Networks  
+Part of **Course 2: Improving Deep Neural Networks** from the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng.
+
+---
+
+## Objective
+This assignment explores how different weight initialization methods affect the training of deep neural networks. A well-chosen initialization can:
+- Speed up convergence of gradient descent
+- Improve the likelihood of reaching a lower training and generalization error
+
+You will implement and compare three initialization techniques:
+1. **Zeros Initialization**
+2. **Random Initialization**
+3. **He Initialization**
+
+---
+
+## Concepts Covered
+- The importance of breaking symmetry in neural networks
+- How poor initialization can cause vanishing or exploding gradients
+- Why He initialization works well for ReLU activations
+
+---
+
+## Structure of the Notebook
+1. **Packages & Dataset**
+   - Load helper functions and visualize a simple binary classification dataset (red vs. blue dots).
+2. **Model Implementation**
+   - A 3-layer neural network is provided (`LINEAR → RELU → LINEAR → RELU → LINEAR → SIGMOID`).
+3. **Initialization Techniques**
+   - **Zeros Initialization**: All weights and biases set to zero.  
+     - Fails to break symmetry → network learns nothing.
+   - **Random Initialization**: Large random weights and zero biases.  
+     - Breaks symmetry but leads to poor convergence due to exploding gradients.
+   - **He Initialization**: Random weights scaled by `sqrt(2 / n[l-1])` and zero biases.  
+     - Achieves fast and stable convergence.
+4. **Results & Observations**
+   - Visualize decision boundaries for each initialization method.
+   - Compare training accuracy and behavior of cost function.
+
+---
+
+## Key Takeaways
+- Random initialization is necessary to break symmetry.
+- Avoid initializing weights with overly large values to prevent exploding gradients.
+- **He Initialization** is the recommended approach for networks with ReLU activations, yielding the best performance in this exercise:
+  - **Zeros Initialization** → ~50% (fails to learn)  
+  - **Large Random Initialization** → ~83% (unstable)  
+  - **He Initialization** → ~99% (fast and accurate)
