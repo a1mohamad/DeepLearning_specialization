@@ -1,4 +1,4 @@
-# 🧠 Regularization in Neural Networks – Football Header Prediction (Course 2, Week 2)
+# 🧠 Regularization in Neural Networks – Football Header Prediction (Course 2)
 
 This repository contains my implementation of the **Regularization** assignment from **Course 2 – Improving Deep Neural Networks** of the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng.
 
