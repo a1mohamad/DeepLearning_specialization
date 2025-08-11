@@ -1,4 +1,4 @@
-### Readme for Gradient Checking Notebook
+# Gradient Checking Notebook
 
 This notebook contains my solution and notes for the **Gradient Checking** assignment from **Course 2: Improving Deep Neural Networks** of Andrew Ng's Deep Learning Specialization.
 
@@ -6,13 +6,13 @@ This notebook demonstrates the crucial process of **gradient checking**, a techn
 
 ***
 
-### 📝 Problem Statement
+## 📝 Problem Statement
 
 The central problem addressed in this assignment is a **mission-critical application** to detect fraudulent mobile payments. Because backpropagation implementations can have bugs, the CEO of the company requires proof that the backpropagation algorithm is working correctly before the model can be deployed. This is where gradient checking comes in. By using gradient checking, we can mathematically prove that our implementation of the backward propagation step is correct, thus providing the necessary assurance.
 
 ***
 
-### 📝 Notebook Contents
+## 📝 Notebook Contents
 
 The notebook is divided into two main parts:
 
@@ -26,7 +26,7 @@ The notebook is divided into two main parts:
 
 ***
 
-### 🔑 Key Concepts Covered
+## 🔑 Key Concepts Covered
 
 * **Forward Propagation**: The process of computing the output and cost of a neural network for a given input.
 * **Backward Propagation**: The process of computing the gradients of the cost function with respect to the network's parameters.
@@ -36,7 +36,7 @@ The notebook is divided into two main parts:
 
 ***
 
-### 🚀 How to Use
+## 🚀 How to Use
 
 To run this notebook, you will need a Python environment with the necessary libraries, including:
 
