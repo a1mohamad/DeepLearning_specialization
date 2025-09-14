@@ -56,12 +56,13 @@ Neural Style Transfer works by using a pre-trained neural network (like VGG19) a
 
 The algorithm uses an optimizer to continuously adjust the pixels until it finds the perfect balance between these two goals, creating a new image that looks like your content but with the style of the other image.
 
-## References
 
-The Neural Style Transfer algorithm was due to Gatys et al. (2015). Harish Narayanan and Github user "log0" also have highly readable write-ups this lab was inspired by. The pre-trained network used in this implementation is a VGG network, which is due to Simonyan and Zisserman (2015). Pre-trained weights were from the work of the MathConvNet team.
+## 7 - References
 
-* Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, (2015). A Neural Algorithm of Artistic Style.
-* Harish Narayanan, Convolutional neural networks for artistic style transfer.
-* Log0, TensorFlow Implementation of "A Neural Algorithm of Artistic Style".
-* Karen Simonyan and Andrew Zisserman (2015). Very deep convolutional networks for large-scale image recognition.
-* MatConvNet.
+The Neural Style Transfer algorithm was due to Gatys et al. (2015). Harish Narayanan and Github user "log0" also have highly readable write-ups this lab was inspired by. The pre-trained network used in this implementation is a VGG network, which is due to Simonyan and Zisserman (2015). Pre-trained weights were from the work of the MathConvNet team. 
+
+- Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, (2015). [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) 
+- Harish Narayanan, [Convolutional neural networks for artistic style transfer.](https://harishnarayanan.org/writing/artistic-style-transfer/)
+- Log0, [TensorFlow Implementation of "A Neural Algorithm of Artistic Style".](http://www.chioka.in/tensorflow-implementation-neural-algorithm-of-artistic-style)
+- Karen Simonyan and Andrew Zisserman (2015). [Very deep convolutional networks for large-scale image recognition](https://arxiv.org/pdf/1409.1556.pdf)
+- [MatConvNet.](http://www.vlfeat.org/matconvnet/pretrained/)
